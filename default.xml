@@ -6,7 +6,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r61" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="platform/build" groups="pdk" remote="aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
